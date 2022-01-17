@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-svg {
+    z-index: -1;
+    position: absolute;
+    margin-top: 0%;
+}
+
+#container {
+    font-family: 'Open Sans', sans-serif; 
+    color: #545454;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: #545454;
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: #545454;
+
+}
+
+.images {
+    display: grid;
+    position: relative;
+}
+
+.backdrop {
+    background-color: #d5c6ad;
+    width: 70%;
+    height: 470px;
+    margin: 7% 0 0 3%;
+    position: absolute;
+    z-index: -1;
+}
+
+.border {
+    border: 1px solid #5c8412;
+    width: 59%;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    margin: 10% 0 0 40%;
+}
+
+.content-1 {
+    display: flex;
+    height: 100%;
+}
+
+.image-1 {
+    /* position: relative; */
+    z-index: -1;
+    width: 70%;
+}
+
+.image-2 {
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    z-index: 1;
+}
+
+.house-logo {
+    justify-content: center;
+    display: flex;
+}
+
+.content-text {
+    width: 25%;
+    position: absolute;
+    left: 85%;
+    top: 35%;
+    /* margin-left: 25%;
+    margin-top: 5%; */
+    z-index: 3;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: #545454;
+    font-size: 30pt;
+    width: 100%;
+    margin-bottom: 5%;
+    font-family: 'Cormorant', serif;
+    margin-top: -25%;
+}
+
+p {
+    color: #545454;
+}
+
+.content-1-btn {
+    display: flex;
+    width: 25%;
+    color: #eee;
+    background-color: #5c8412;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13pt;
+    margin: 5% 0;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.25s ease-in-out;
+}
+
+.content-1-btn:hover {
+    background-color: #7ab116;
+}
+
+/**************** MID CONTENT BLOCKS ****************/
+
+.blocks {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row-reverse;
+    
+}
+
+.div-1 {
+    background-color: #5c8412;
+    width: 80%;
+    height: 20px;
+    /* right: 0; */
+    top: 50%;
+    position: relative; 
+}
+
+.div-2 {
+    background-color: #bdcea0;
+    width: 80%;
+    height: 20px;
+    margin: 15px 10% 0 0;
+    position: absolute; 
+}
+
+.div-3 {
+    background-color: #e2e1dc;
+    width: 80%;
+    height: 20px;
+    margin: 30px 20% 0 0;
+    position: absolute; 
+}
+
+/**************** SECTION 2 ****************/
+
+.content-2 {
+    /* position: absolute; */
+    margin: 10% 3%;
+}
+
+.section-2-header {
+    transform: rotate(-90deg);
+    /* padding: 10% 3%; */
+    width: 30%;
+    font-size: 60pt;
+    align-self: center;
+    position: absolute;
+    margin-bottom: 10%;
+    margin-left: -10%;
+}
+
+.proj-image-1, .proj-image-2, .proj-image-3 {
+    width: 30%;
+    border-radius: 0 50px 0;
+}
+
+.proj-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10%;
+    position:  relative;
+}
+
+.proj-section {
+    display: flex;
+}
+
+.view-all {
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+    width: auto;
+    margin: 5% 0;
+    float: right;
+}
+
+.view-all:hover {
+    letter-spacing: 5px;
+}
+
+/**************** SECTION 3 ****************/
+.section-3 {
+    background-color: #e2e1dc;
+    /* margin-top: 35%; */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+
+.section-3-header {
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+}
+
+.section-3-btn {
+    color: #eee;
+    background-color: #5c8412;
+    border: none;
+    /* border-radius: 10px; */
+    padding: 10px 20px;
+    font-size: 13pt;
+    margin: 5% 0;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.section-3-btn:hover {
+    background-color: #7ab116;
+}
+
+.buttons {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+/**************** FOOTER ****************/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+.social-media-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 10%;
+}
+
+.footer-3 {
+    display:flex;
+    flex-direction:column;
+    list-style-type: none;
+}
+
+.footer-3 > li {
+	margin: 10% 0;
+}
