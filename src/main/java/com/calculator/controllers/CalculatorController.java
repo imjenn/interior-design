@@ -21,10 +21,9 @@ public class CalculatorController {
 		return "home.jsp";
 	}
 	
-	
-	// Display admin login
-	@GetMapping("/login")
-	public String login() {
-		return "login.jsp";
+	// Display about page
+	@GetMapping("/portfolio")
+	public String about() {
+		return "portfolio.jsp";
 	}
 }

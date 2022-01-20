@@ -1,11 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>Admin Login</title>
 	<link rel="stylesheet" type="text/css" href="/css/login.css">
+<!-- 	<link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -30,18 +33,20 @@
         </nav>
         <div class="form-body">
             <img src="https://image.freepik.com/free-photo/poster-with-vertical-frames-empty-white-wall-living-room-interior-with-blue-velvet-armchair-3d-rendering_41470-2907.jpg" alt="Contact me">
-            <form action="">
-                <h1 class="admin-form-header">Admin Use</h1>
-                <p>
-                    <label for="email">Email: </label>
-                    <input type="text" id="email" placeholder="Email">
-                </p>
-                <p>
-                    <label for="password">Password: </label>
-                    <input type="password" id="password" placeholder="Password">
-                </p>
-                <button>Log In</button>
-            </form>
+            <form:form action="/login" method="post" modelAttribute="newLogin">
+            	<h1 class="admin-form-header">Admin Use</h1>
+        		<p>
+            		<label>Email:</label>
+            		<form:input class="form-input" path="email" />
+		            <form:errors path="email" style="color: red;" />
+		        </p>
+		        <p>
+		            <label>Password:</label>
+		            <form:password class="form-input" path="password" />
+		            <form:errors path="password" style="color: red;" />
+		        </p>
+		        <button>Login</button>
+		    </form:form>
         </div>
         <!---------- FOOTER ---------->
         <footer class="footer">
