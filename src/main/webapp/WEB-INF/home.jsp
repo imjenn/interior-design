@@ -24,12 +24,11 @@
         </svg>
         <!---------- NAVBAR ---------->
         <nav class="navbar">
-            <h1><a href="/">OddsToEnds</a></h1>
+            <h1><img class="logo" src="/images/logo.png" alt="Diamond logo"><a href="/">OddsToEnds</a></h1>
             <ul class="navlinks">
                 <li><a href="/">HOME</a></li>
                 <li><a href="/portfolio">PORTFOLIO</a></li>
                 <li><a href="home.html">SERVICES</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
         <!---------- SECTION 1 ---------->
@@ -44,30 +43,6 @@
                     alt="Home decor" />
             </div>
             <div class="content-text">
-                <svg class="house-logo" version="1.0" xmlns="http://www.w3.org/2000/svg" width="300.000000pt"
-                    height="231.000000pt" viewBox="0 0 300.000000 231.000000" preserveAspectRatio="xMidYMid meet">
-                    <metadata>
-                        Created by potrace 1.10, written by Peter Selinger 2001-2011
-                    </metadata>
-                    <g transform="translate(0.000000,231.000000) scale(0.100000,-0.100000)" fill="#444444"
-                        stroke="none">
-                        <path d="M1468 2093 c-18 -16 -42 -36 -53 -45 -11 -9 -125 -99 -253 -200 -128
-                        -101 -265 -209 -305 -240 -40 -31 -148 -116 -242 -190 -93 -73 -171 -141 -173
-                        -151 -7 -37 29 -29 91 19 34 26 64 51 67 54 3 4 119 96 259 206 281 221 323
-                        254 510 402 71 56 135 102 142 102 9 0 159 -113 205 -155 6 -5 80 -64 164
-                        -130 174 -136 398 -313 451 -356 121 -98 216 -169 225 -169 24 0 26 35 2 53
-                        -13 10 -32 26 -43 35 -43 37 -225 180 -287 227 l-67 50 -3 255 -3 255 -122 3
-                        c-152 3 -147 10 -141 -169 3 -112 -1 -152 -14 -121 -3 9 -364 292 -372 292 -2
-                        0 -19 -12 -38 -27z m650 -237 c1 -113 -1 -206 -5 -206 -5 0 -43 29 -86 63
-                        l-78 63 0 142 c0 78 1 143 1 145 0 1 37 1 82 0 l83 -1 3 -206z m-198 -68 c0
-                        -16 -3 -19 -11 -11 -6 6 -8 16 -5 22 11 17 16 13 16 -11z" />
-                        <path d="M489 1823 c-13 -16 -12 -17 4 -4 9 7 17 15 17 17 0 8 -8 3 -21 -13z" />
-                        <path d="M1186 1627 c3 -10 9 -15 12 -12 3 3 0 11 -7 18 -10 9 -11 8 -5 -6z" />
-                        <path
-                            d="M768 1405 l-28 -24 0 -239 0 -239 25 4 24 5 3 257 c2 141 3 257 3 258 0 1 -12 -9 -27 -22z" />
-                        <path d="M2220 1176 l0 -256 30 0 30 0 -1 233 0 232 -30 23 -29 24 0 -256z" />
-                    </g>
-                </svg>
                 <h2>Revamp your home into your comfort zone</h2>
                 <p>It's not what you display but how you display it.</p>
                 <a class="content-1-btn" href="">Learn More</a>
@@ -93,11 +68,8 @@
         </div>
         <!---------- SECTION 3 ---------->
         <div class="section-3">
-            <p class="section-3-header">Interested in a consultation? Let's discuss!</p>
-            <div class="buttons">
-                <a class="section-3-btn" href="">Get a Quote</a>
-                <a class="section-3-btn" href="">Contact</a>
-            </div>
+            <p class="section-3-header">Interested in a consultation? Let's discuss your project!</p>
+            <a class="section-3-btn" href="">Contact</a>
         </div>
         <!---------- FOOTER ---------->
         <footer class="footer">
