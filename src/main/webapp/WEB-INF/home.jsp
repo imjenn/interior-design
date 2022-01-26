@@ -26,9 +26,9 @@
         <nav class="navbar">
             <h1><img class="logo" src="/images/logo.png" alt="Diamond logo"><a href="/">OddsToEnds</a></h1>
             <ul class="navlinks">
-                <li><a href="/">HOME</a></li>
-                <li><a href="/portfolio">PORTFOLIO</a></li>
-                <li><a href="home.html">SERVICES</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="home.html">Services</a></li>
             </ul>
         </nav>
         <!---------- SECTION 1 ---------->
@@ -45,7 +45,8 @@
             <div class="content-text">
                 <h2>Revamp your home into your comfort zone</h2>
                 <p>It's not what you display but how you display it.</p>
-                <a class="content-1-btn" href="">Learn More</a>
+                <a class="content-1-btn" href="">Get Started</a>
+                <a href="">Learn more about me</a>
             </div>
         </div>
          <!---------- MID CONTENT BLOCKS ---------->

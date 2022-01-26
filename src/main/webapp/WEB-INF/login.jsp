@@ -25,9 +25,9 @@
         <nav class="navbar">
             <h1><img class="logo" src="/images/logo.png" alt="Diamond logo"><a href="/">OddsToEnds</a></h1>
             <ul class="navlinks">
-                <li><a href="/">HOME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="home.html">SERVICES</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/services">Services</a></li>
             </ul>
         </nav>
         <div class="form-body">

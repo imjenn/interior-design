@@ -19,7 +19,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
 @Table(name="project")
-public class Calculator {
+public class Project {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -51,11 +51,11 @@ public class Calculator {
 	@DateTimeFormat(pattern="yyyy-MM-dd")
 	private Date updatedAt;
 	
-	public Calculator() {
+	public Project() {
 		
 	}
 
-	public Calculator(Long id, Integer rate, Integer squarefoot, String add, Integer total, String email) {
+	public Project(Long id, Integer rate, Integer squarefoot, String add, Integer total, String email) {
 		super();
 		this.id = id;
 		this.rate = rate;
